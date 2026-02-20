@@ -27,6 +27,7 @@ body{
     justify-content: space-around;
     padding: 10px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .noticia{
@@ -39,16 +40,7 @@ body{
     width: 450px;
 }
 
-#img_mascote{
-    width: 150px;
-    height: 200px;
-    padding: 5px;
-}
-
-#img_calleri{
-    width: 200px;
-    height: 200px;
-    padding: 5px;
-}
-
-
+.img_noticia{
+    width: 250px;
+    height: 300px;
+    padding: 10px;
