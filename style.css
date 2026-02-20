@@ -51,3 +51,24 @@ hr{
     border-top: 7px solid rgb(155, 18, 18);
     margin: 20px 0;
 }
+
+#escalacao{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; 
+    justify-content: center; 
+    align-items: flex-end; 
+    gap: 95px; 
+    overflow-x: auto; 
+}
+.jogador-item{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+}
+
+.icone_jogador{
+    height: 100px; 
+    width: 100px;
+}
