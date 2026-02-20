@@ -1,0 +1,23 @@
+#SP_icon{
+    width: 100px;
+    height: 100px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: rgb(155, 18, 18);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#links{
+    
+}
