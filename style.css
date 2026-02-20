@@ -16,6 +16,8 @@
 body{
     margin: 0px;
     padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
 }
 
 #links{
@@ -54,16 +56,15 @@ hr{
 
 #escalacao{
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap; 
+    flex-wrap: wrap; 
     justify-content: center; 
     align-items: flex-end; 
     gap: 95px; 
-    overflow-x: auto; 
+    
 }
 .jogador-item{
     display: flex;
-    flex-direction: column; 
+    flex-direction: row;  
     align-items: center;
     text-align: center;
 }
@@ -71,4 +72,10 @@ hr{
 .icone_jogador{
     height: 100px; 
     width: 100px;
+}
+h2 {
+    margin-bottom: 10px;    
+    width: 100%;
+    text-align: center;
+    
 }
