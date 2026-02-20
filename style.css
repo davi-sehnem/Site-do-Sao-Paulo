@@ -44,3 +44,10 @@ body{
     width: 250px;
     height: 300px;
     padding: 10px;
+}
+
+hr{
+    border: 10px;
+    border-top: 7px solid rgb(155, 18, 18);
+    margin: 20px 0;
+}
